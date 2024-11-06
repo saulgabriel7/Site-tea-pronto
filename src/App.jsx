@@ -10,6 +10,7 @@ import { Comprovacoes } from "./pages/Comprovacoes"
 
 import { theme } from "./styles/theme.js"
 import { GlobalStyle } from "./styles/global.js"
+import { Jogo } from "./pages/Jogo.jsx"
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path:"/Comprovacoes",
     element: <Comprovacoes/>
+  },
+  {
+    path:"/Jogo",
+    element: <Jogo/>
   }
 ])
 

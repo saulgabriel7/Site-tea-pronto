@@ -22,19 +22,6 @@ export  function Evidencias() {
                     <p>O Tea Sense é uma solução inovadora que foi desenvolvida  para crianças autistas de nível 1, com idades entre 6 e 10  anos, demonstrando eficácia comprovada na facilitação da  comunicação, melhoria da interação social e suporte ao  tratamento psicológico.</p> <br />
                 </div>
 
-                <div className="desc-2">
-                    <p>Client</p>
-                    <p>New Magazine</p>
-                </div>
-                <div className="desc-2">
-                    <p>Date</p>
-                    <p>May, 2024</p>
-                </div>
-                <div className="desc-2">
-                    <p>Author</p>
-                    <p>Author Name</p>
-                </div>
-
                 <div className="redes-sociais">
                     <img src={instagram} alt="" />
                     <img src={TikTok} alt="" />

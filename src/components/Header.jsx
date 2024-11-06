@@ -36,6 +36,7 @@ export function Header() {
             <li><a href="/Participantes" onClick={(e) => handleNavigation(e, '/Participantes')}>Participantes</a></li>
             <li><a href="/Descobrir" onClick={(e) => handleNavigation(e, '/Descobrir')}>Descobrir</a></li>
             <li><a href="/Comprovacoes" onClick={(e) => handleNavigation(e, '/Comprovacoes')}>Comprovações</a></li>
+            <li><a href="/Jogo" onClick={(e) => handleNavigation(e, '/Jogo')}>Jogo</a></li>
           </ul>
         </div>
 

@@ -1,4 +1,4 @@
-import img from "../assets/manual.svg"
+
 import maos from "../assets/maos.svg"
 import manual from "../assets/manualgreen.svg"
 
@@ -12,8 +12,14 @@ export  function Manual() {
           <div className="manu">
             <img src={manual} alt="" />
           </div>
-          <div>
-            <img src={img} alt="" />
+          <div className="video-container">
+          <iframe
+        src="https://www.youtube.com/embed/WFuUoaPptDM"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
           </div>
         </div>
 

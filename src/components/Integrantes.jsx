@@ -5,10 +5,10 @@ import davi from "../assets/davi.svg"
 
 export function Integrantes() {
   const integrantes = [
-    { src: saul, nome: 'Saul Gabriel', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', cor:'rgb(3, 147, 100, 0.7)' },
-    { src: taina, nome: 'Tainá Dos Santos', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', cor:'rgb(0, 0, 0, 0.7)'},
-    { src: esther, nome: 'Esther Santos', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', cor:'rgb(122, 103, 53, 0.7)'},
-    { src: davi, nome: 'Davi Da Hora', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', cor:'rgb(112, 194, 199, 0.7)' },
+    { src: saul, nome: 'Saul Gabriel', desc: 'Olá seja bem vindo, ao TEASense!', cor:'rgb(3, 147, 100, 0.7)' },
+    { src: taina, nome: 'Tainá Dos Santos', desc: 'Olá seja bem vindo, ao TEASense!', cor:'rgb(0, 0, 0, 0.7)'},
+    { src: esther, nome: 'Esther Santos', desc: 'Olá seja bem vindo, ao TEASense!', cor:'rgb(122, 103, 53, 0.7)'},
+    { src: davi, nome: 'Davi Da Hora', desc: 'Olá seja bem vindo, ao TEASense!', cor:'rgb(112, 194, 199, 0.7)' },
   ];
 
   return (

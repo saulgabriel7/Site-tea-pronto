@@ -1,5 +1,199 @@
 import styled from 'styled-components';
 
+export const GameContainer = styled.div`
+    .comprovacoes {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        background: ${props => props.theme.sobre};
+    }
+
+    .quadro {
+        position: sticky;
+        top: 0; 
+        width: 800px;
+        height: 270px;
+        padding-inline: 40px;
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+
+
+    .quadro h3 {
+        font-size: 22px;
+    }
+
+    .tec {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .tec p {
+        font-family: ${props => props.theme.fontDois};
+        font-size: 20px;
+    }
+
+
+    .tec h3 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-size: 64px;
+    }
+
+    .conteudo {
+        display: flex;
+        padding-top: 70px;
+        justify-content: space-between;
+    }
+
+    .conteudo img {
+        margin-bottom: 30px;
+    }
+
+    .textos h3 {
+        font-size: 36px;
+        margin-block: 25px;
+
+    }
+
+    .textos h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: ${props => props.theme.corTexto};
+    }
+
+    .textos p {
+        font-family: ${props => props.theme.fontDois};
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .desc-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc-2 {
+        display: flex;
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+
+    .texto-1 {
+        max-width: 100%;
+    }
+
+    .maos {
+        display: flex;
+        justify-content: end;
+    }
+
+    .maos img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .redes-sociais img{
+        margin-top: 10px;
+        margin-inline:10px;
+    }
+
+    .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Manter a proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    }
+
+    .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    @media(max-width: 800px) {
+        .video-container iframe{
+            padding: 25px;
+        }
+
+        .texto-1 {
+        margin-inline: 35px;
+        margin-top: 35px;
+        }
+
+        .textos h3 {
+            font-size: 24px;
+        }
+
+        .textos h4 {
+            font-size: 18px;
+        }
+
+        .textos p{
+            font-size: 16px;
+        }
+
+        .quadro h3 {
+            font-size: 18px;
+        }
+        
+        .texto-img{
+            margin-inline: 35px;
+        }
+
+        .conteudo img{
+            margin-bottom:0px;        
+        }
+
+        .tec {
+            padding-top: 50px;
+            margin-inline: 35px;
+        }
+
+        .tec h3 {
+            font-size: 24px;
+        }
+
+        .textos h3 br {
+            display: none;
+        }
+
+        .tec p {
+            font-size: 16px;
+        }
+
+        .texto-img{
+            display: block;
+        }
+
+        .conteudo {
+            padding-top: 50px;
+            flex-direction: column; 
+        }
+
+        .textos{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        .quadro {
+            width: 100%;
+            position: static; /* Remove o posicionamento sticky no mobile */
+            margin-bottom: 35px;
+            height: auto;
+            padding-inline: 20px;
+            padding-top: 10px;
+            margin-right: 5px;
+}
+`
 
 export const HeaderContainer = styled.div`
   .header {
@@ -875,6 +1069,23 @@ export const ManualContainer = styled.div`
         padding-inline: 135px;
         padding-top: 70px;
     }
+
+    .video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Manter a proporção 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
     .manu{
         width: 90px;
