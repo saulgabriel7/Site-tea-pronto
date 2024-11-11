@@ -14,12 +14,13 @@ export  function Manual() {
           </div>
           <div className="video-container">
           <iframe
-        src="https://www.youtube.com/embed/WFuUoaPptDM"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+              src="https://www.youtube.com/embed/ueY8JYpCF7E"
+              title="YouTube Video"
+              className="w-full aspect-video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+          ></iframe>
           </div>
         </div>
 
